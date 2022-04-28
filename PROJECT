@@ -1,0 +1,11 @@
+domain: cvte.com
+layout:
+- go.kubebuilder.io/v3
+projectName: cgroup-enhancer
+repo: cgroup-enhancer
+resources:
+- controller: true
+  domain: cvte.com
+  kind: Pod
+  version: v1
+version: "3"
